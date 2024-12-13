@@ -1,0 +1,337 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.title-font {
+  font-family: "DM Serif Display", serif !important;
+  font-display: swap;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.withbg-jon-mobile {
+  background: url(/Images/bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+.withbg-jon {
+  background: url(/Images/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-color: #b2afab;
+  background-position: center center;
+  min-height: 100vh;
+  max-height: 999px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-dashboard {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.2);
+}
+.site-layout .site-layout-background {
+  background: #fff;
+}
+[data-theme="dark"] .site-layout .site-layout-background {
+  background: #141414;
+}
+.cluster-marker {
+  color: #fff;
+  background: #1978c8;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crime-marker {
+  background: none;
+  border: none;
+}
+
+.crime-marker img {
+  width: 25px;
+}
+
+.logo {
+  float: left;
+  height: 31px;
+  margin: 16px 24px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.ant-layout-content {
+  min-height: calc(100vh - 138px);
+}
+
+/* .ant-pagination-options {
+  display: none;
+} */
+
+.logoCrypto {
+  margin: 0 20px;
+}
+
+.logoCryptoMobile {
+  margin: 0 10px;
+}
+
+.hideScrollBar::-webkit-scrollbar {
+  display: none;
+}
+
+.hideScrollBar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* width */
+.niceScrollbar::-webkit-scrollbar {
+  width: 3px;
+  height: 8px;
+  margin-top: 5px;
+}
+
+/* Track */
+.niceScrollbar::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+.niceScrollbar::-webkit-scrollbar-thumb {
+  background: #33539e;
+}
+
+/* Handle on hover */
+.niceScrollbar::-webkit-scrollbar-thumb:hover {
+  background: #33539e;
+}
+
+.ant-layout-sider {
+  background: #2D3591;
+}
+
+.ant-layout-sider-trigger {
+  background: #576679;
+  display: none;
+}
+
+.ant-menu-dark{
+  background-color: #090b1d;
+}
+
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #ffffff;
+}
+.ant-menu-dark .ant-menu-item-selected, :where(.css-dev-only-do-not-override-apn68).ant-menu-dark>.ant-menu .ant-menu-item-selected{
+  color: #2D3591;
+}
+
+.ant-menu.ant-menu-dark,
+.ant-menu-dark .ant-menu-sub,
+.ant-menu.ant-menu-dark .ant-menu-sub {
+  background: transparent
+}
+
+.ant-menu-dark.ant-menu-inline .ant-menu-sub.ant-menu-inline, .ant-menu-dark>.ant-menu.ant-menu-inline .ant-menu-sub.ant-menu-inline {
+  background: transparent !important;
+}
+
+.ant-modal-content {
+  border-radius: 15px;
+}
+
+.fc-button {
+  font-size: 14px; /* Adjust font size */
+  padding: 5px 10px; /* Adjust padding for button size */
+  height: auto; /* Ensure height adjusts with content */
+}
+
+/* Optional: Style specific buttons if needed */
+.fc-prev-button, .fc-next-button, .fc-today-button {
+  font-size: 16px; /* Larger font size for navigation buttons */
+}
+
+.slick-slide{
+  height: 790px !important;
+}
+
+input::placeholder {
+  color: white !important; 
+  opacity: 1; /* Ensures full opacity */
+}
+
+.floating-button {
+  position: fixed;
+  right: 0;
+  bottom: 10%;
+  transform: translateY(-50%);
+  background-color: #2E3A8C; /* Adjust color to match your design */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 8px 0 0 8px; /* Rounded corner on left */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.button-text {
+  writing-mode: vertical-rl;
+  transform: rotate(900deg);
+  font-size: 16px;
+  padding: 10px 0 10px 0;
+}
+
+.button-icon {
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.custom-input{
+  color: white !important;
+}
+
+.modal-custom .ant-modal-content {
+  padding: 0 !important;
+}
+
+.custom-input::placeholder {
+  color: white; /* Placeholder text color */
+  opacity: 1; /* Ensure visibility */
+}
+
+/* .green-li ul::before {
+  font-size: 20px;
+  width: 96px;
+  height: 96px;
+} */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.headerRow {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #666;
+}
+
+.logoCol {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.mainContent {
+  margin-top: 30px;
+}
+
+.form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sideImage {
+  border-radius: 8px;
+}
+
+.fixedImage {
+  position: fixed;
+  right: 0;
+  top: 20%;
+  width: 580px;
+  height: auto;
+  z-index: 100;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 1280px) {
+  .fixedImage {
+    width: 480px; /* Reduce width for smaller screens */
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .fixedImage {
+    top: 27%;
+    width: 430px; /* Reduce width for smaller screens */
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .fixedImage {
+    width: 380px; /* Further reduce width for tablet-sized screens */
+    top: 15%; /* Adjust vertical position */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fixedImage {
+    width: 310px; /* Narrower width for mobile screens */
+    top: 27%; /* Adjust vertical position */
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .fixedImage {
+    width: 300px; /* Narrower width for mobile screens */
+    top: 20%; /* Adjust vertical position */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .fixedImage {
+    display: none; /* Hide the image on very small screens */
+  }
+}
+
+/* Adjust button size based on screen size */
+@media (max-width: 768px) {
+  .fc-button {
+    font-size: 12px !important; /* Smaller font size on smaller screens */
+    padding: 2px 4px !important; /* Smaller padding on smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .mini-calendar {
+    display: none;
+  }
+}
