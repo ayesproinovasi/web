@@ -61,7 +61,7 @@ const Timeline: React.FC<TimelineProps> = () => {
     const rightItems: TimelineItem[] = [
         { year: '2020', description: 'Focusing Our Business to Supply Goods and Services Related to Corrosion Maintenance Solution (Preventive and Corrective Method)' },
         { year: '2022', description: 'Representing EONCOAT High Temp. External Corrosion Protection with Coating System for Steam and Corrosion Under Insulation (CUI)' },
-        { year: '2023', description: 'Representing Wencon Epoxy Ceramic Coating For Indonesian Market' },
+        { year: '2023', description: 'Representing Weicon Epoxy Coatings For Indonesian Market' },
     ];
 
     return (

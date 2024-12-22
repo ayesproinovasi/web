@@ -378,7 +378,7 @@ const HomeScreen = ({ isMobile }: { isMobile: boolean }) => {
                         <h1 className="title-font" style={{ fontSize: "39px" }}>Our Vision</h1>
                         <p style={{ fontSize: "25px" }}>What our determination and passion is that Ayes Pro Inovasi will be able to
                             provide services in various ways, especially in all industry area, following our
-                            motto / spirit “New Methods and Process"</p>
+                            motto / spirit <strong>“New Methods and Process"</strong></p>
                     </Col>
                     <Col
                         xs={24}
