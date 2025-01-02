@@ -68,7 +68,7 @@ const Timeline: React.FC<TimelineProps> = () => {
         <Row style={{ color: 'white', background: themeColor?.blue500, margin: '10px 50px', padding: 50 }} gutter={[ 20, 10 ]}>
             <Col xs={24} md={12}>
                 <TimelineSection items={leftItems} listStyleImage="../Icon/dot.png" />
-            </Col>
+            </Col>  
             <Col xs={24} md={12}>
                 <TimelineSection items={rightItems} listStyleImage="../Icon/dot.png" />
                 <ul style={{ listStyle: 'none', paddingLeft: 0, position: 'relative' }}>

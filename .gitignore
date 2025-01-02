@@ -43,3 +43,4 @@ cypress/videos/*
 cypress/screenshots/*
 
 dockerfile
+dockerfile.yaml

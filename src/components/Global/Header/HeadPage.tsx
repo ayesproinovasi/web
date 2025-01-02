@@ -19,6 +19,13 @@ function HeadPage({
       <title>{`${title} | ${process.env.NEXT_PUBLIC_APPNAME ?? "APP"}`}</title>
 
       {/* Default CSS */}
+      <link
+        rel="icon"
+        href="icons/white_logo.png"
+        // type="image/png"
+        // sizes="32x32"
+      />
+      {/* <link rel="icon"  href="/public/white_logo.png" /> */}
       {withDefaultCss && (
         <link
           rel="stylesheet"
@@ -38,13 +45,15 @@ function HeadPage({
       />
 
       {/* Page-specific CSS */}
-      {css && (
-        <link rel="stylesheet" type="text/css" href={`/css/${css}`} />
-      )}
+      {css && <link rel="stylesheet" type="text/css" href={`/css/${css}`} />}
 
       {/* Preconnect for Fonts */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+      <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossOrigin="anonymous"
+      />
 
       {/* Preload critical fonts */}
       <link
@@ -58,7 +67,6 @@ function HeadPage({
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;1,400&family=DM+Serif+Display:ital@0;1&display=swap"
         rel="stylesheet"
       />
-
     </Head>
   );
 }
