@@ -21,7 +21,8 @@ function HeadPage({
       {/* Default CSS */}
       <link
         rel="icon"
-        href="icons/white_logo.png"
+        // href="icons/white_logo.png"
+        href="Images/LOGO_1.png"
         // type="image/png"
         // sizes="32x32"
       />
