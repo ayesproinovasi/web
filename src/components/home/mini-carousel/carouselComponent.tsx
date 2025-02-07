@@ -8,8 +8,8 @@ const CarouselComponent = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   const thumbnails = [
-    "/background/carousel/1.jpeg",
-    "/background/carousel/2.jpeg",
+    // "/background/carousel/1.jpeg",
+    // "/background/carousel/2.jpeg",
     "/background/carousel/3.jpeg",
     "/background/carousel/4.jpeg",
     "/background/carousel/5.jpeg",
@@ -17,6 +17,17 @@ const CarouselComponent = () => {
     "/background/carousel/7.jpg",
     "/background/carousel/8.jpg",
   ];
+
+  // const thumbnails = [
+  //   "/background/carousel/1.jpeg",
+  //   "/background/carousel/2.jpeg",
+  //   "/background/carousel/3.jpeg",
+  //   "/background/carousel/4.jpeg",
+  //   "/background/carousel/5.jpeg",
+  //   "/background/carousel/6.jpg",
+  //   "/background/carousel/7.jpg",
+  //   "/background/carousel/8.jpg",
+  // ];
 
   const onSelect = useCallback(() => {
     if (!mainEmblaApi) return;
