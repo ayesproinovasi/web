@@ -467,7 +467,7 @@ const HomeScreen = ({ isMobile }: { isMobile: boolean }) => {
                 {/* Left Side - Video Section */}
                 <Col xs={24} md={12} lg={12} xl={12}>
                     <div style={{ position: 'relative' }}>
-                        <iframe
+                        {/* <iframe
                             loading="lazy"
                             width="100%"
                             height="400"
@@ -477,7 +477,28 @@ const HomeScreen = ({ isMobile }: { isMobile: boolean }) => {
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen
                             style={{ borderRadius: '8px' }}
-                        ></iframe>
+                        ></iframe> */}
+                            <img
+                            src="../background/support/garis2.png"
+                            style={{
+                                position: 'absolute',
+                                top: '-40%',
+                                left: '-10%',
+                                width: '240px',
+                                zIndex: -1
+                            }}
+                        />
+                        <motion.div variants={itemVariants}>
+                            <Row justify={"center"} align={"middle"}>
+                                <Image
+                                    src={"/logo_primary.png"}
+                                    width={!isMobile ? 450 : 350}
+                                    height={300}
+                                    objectPosition="center"
+                                />
+                            </Row>
+                        </motion.div>
+                         
                     </div>
                 </Col>
 
