@@ -11,7 +11,7 @@ const CarouselComponent = () => {
     // "/background/carousel/1.jpeg",
     // "/background/carousel/2.jpeg",
     "/background/carousel/3.jpeg",
-    "/background/carousel/4.jpeg",
+    // "/background/carousel/4.jpeg",
     "/background/carousel/5.jpeg",
     "/background/carousel/6.jpg",
     "/background/carousel/7.jpg",
