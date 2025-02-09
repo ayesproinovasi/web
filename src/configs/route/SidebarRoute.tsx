@@ -11,8 +11,8 @@ export const AdminRoutes: routesType = [
     ],
   },
   {
-    path: "/product/S2S_PLID_Wrap",
-    key: "/product/S2S_PLID_Wrap",
+    path: "/product/S2S_HD_Corrosion_Shield",
+    key: "/product/S2S_HD_Corrosion_Shield",
     name: "S2S Anti Corrosion Inhibitor System",
     icon: "",
     children: [
