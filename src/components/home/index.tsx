@@ -578,7 +578,7 @@ const HomeScreen = ({ isMobile }: { isMobile: boolean }) => {
                             <Button
                                 type="primary"
                                 style={{ position: 'absolute', bottom: '10px', left: '10px' }}
-                                onClick={() => PushNavigateTo(`/product/S2S_PLID_Wrap`)}
+                                onClick={() => PushNavigateTo(`/product/S2S_HD_Corrosion_Shield`)}
                             >
                                 Details &raquo;
                             </Button>
