@@ -530,7 +530,7 @@ const HomeScreen = ({ isMobile }: { isMobile: boolean }) => {
             </Row>
 
             <div style={{ padding: '20px 50px', textAlign: 'center' }}>
-                <Row gutter={[16, 16]} style={{ marginTop: '20px', cursor: 'pointer' }} onClick={() => PushNavigateTo(`/product/S2S_PLID_Wrap`)}>
+                <Row gutter={[16, 16]} style={{ marginTop: '20px', cursor: 'pointer' }} onClick={() => PushNavigateTo(`/product/S2S_HD_Corrosion_Shield`)}>
                     {/* Preventive Solution Section */}
                     <Col xs={24} md={18} lg={18} xl={18}>
                         <div style={{ position: 'relative', textAlign: 'left' }}>
