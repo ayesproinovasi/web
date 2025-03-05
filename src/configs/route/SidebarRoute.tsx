@@ -7,9 +7,43 @@ export const AdminRoutes: routesType = [
     key: "Preventive Solution",
     name: "Preventive Solution",
     icon: "",
+    children: [],
+  },
+  // update
+  {
+    path: "/product/S2S_HD_Corrosion_Shield",
+    key: "/product/S2S_HD_Corrosion_Shield",
+    name: "Trenton Anti Corrosion Material",
+    icon: "",
     children: [
+      // {
+      //   path: "/product/S2S_PLID_Wrap",
+      //   key: "/product/S2S_PLID_Wrap",
+      //   name: "S2S PLID Wrap",
+      // },
+      {
+        path: "/product/S2S_HD_Corrosion_Shield",
+        key: "/product/S2S_HD_Corrosion_Shield",
+        name: "S2S HD Corrosion Shield",
+      },
+      {
+        path: "/product/S2S_Void_&_Rudder_Float_Coat",
+        key: "/product/S2S_Void_&_Rudder_Float_Coat",
+        name: "S2S Void & Rudder Float Coat",
+      },
+      {
+        path: "/product/S2S_Anchor_Chain_Corrosion_Control",
+        key: "/product/S2S_Anchor_Chain_Corrosion_Control",
+        name: "S2S Anchor Chain Corrosion Control",
+      },
+      {
+        path: "/product/S2S_Automotive_Rust_Proofing",
+        key: "/product/S2S_Automotive_Rust_Proofing",
+        name: "S2S Automotive Rust Proofing",
+      },
     ],
   },
+  // update
   {
     path: "/product/S2S_HD_Corrosion_Shield",
     key: "/product/S2S_HD_Corrosion_Shield",
@@ -138,8 +172,7 @@ export const AdminRoutes: routesType = [
     key: "Corrective Solution",
     name: "Corrective Solution",
     icon: "",
-    children: [
-    ],
+    children: [],
   },
   {
     path: "/product/CarbonSeal",
@@ -186,6 +219,6 @@ export const AdminRoutes: routesType = [
         key: "/product/Corrwrap",
         name: "Corwrap",
       },
-    ]
-  }
+    ],
+  },
 ];
