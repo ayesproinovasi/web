@@ -2,6 +2,62 @@ import { routesType } from "types/Sidebar";
 
 // eslint-disable-next-line import/prefer-default-export
 export const AdminRoutes: routesType = [
+  //update
+  {
+    path: "",
+    key: "Mitigation Solution",
+    name: "Mitigation Solution",
+    icon: "",
+    children: [],
+  },
+  {
+    path: "/product/Coating_Quality_Measurement",
+    key: "/product/Coating_Quality_Measurement",
+    name: "C-Cube",
+    icon: "",
+    children: [
+      {
+        path: "/product/Coating_Quality_Measurement",
+        key: "/product/Coating_Quality_Measurement",
+        name: "Coating Quality Measurement",
+      }
+    ],
+  },
+  
+  {
+    path: "/product/Neu_Scan",
+    key: "/product/Neu_Scan",
+    name: "Scansolution",
+    icon: "",
+    children: [
+      {
+        path: "/product/Neu_Scan",
+        key: "/product/Neu_Scan",
+        name: "NeuScan",
+      },
+      {
+        path: "/product/WI_Discovery_Device",
+        key: "/product/WI_Discovery_Device",
+        name: "WI Discovery Device",
+      },
+    ],
+  },
+  {
+    path: "/product/Neu_Scan",
+    key: "/product/Neu_Scan",
+    name: "Smart Thermal Indicative Coating",
+    icon: "",
+    children: [
+      {
+        path: "/product/STIC_60",
+        key: "/product/STIC_60",
+        name: "STIC 60",
+      }
+    ],
+  },
+  
+  //update
+
   {
     path: "",
     key: "Preventive Solution",
@@ -9,41 +65,6 @@ export const AdminRoutes: routesType = [
     icon: "",
     children: [],
   },
-  // update
-  {
-    path: "/product/S2S_HD_Corrosion_Shield",
-    key: "/product/S2S_HD_Corrosion_Shield",
-    name: "Trenton Anti Corrosion Material",
-    icon: "",
-    children: [
-      // {
-      //   path: "/product/S2S_PLID_Wrap",
-      //   key: "/product/S2S_PLID_Wrap",
-      //   name: "S2S PLID Wrap",
-      // },
-      {
-        path: "/product/S2S_HD_Corrosion_Shield",
-        key: "/product/S2S_HD_Corrosion_Shield",
-        name: "S2S HD Corrosion Shield",
-      },
-      {
-        path: "/product/S2S_Void_&_Rudder_Float_Coat",
-        key: "/product/S2S_Void_&_Rudder_Float_Coat",
-        name: "S2S Void & Rudder Float Coat",
-      },
-      {
-        path: "/product/S2S_Anchor_Chain_Corrosion_Control",
-        key: "/product/S2S_Anchor_Chain_Corrosion_Control",
-        name: "S2S Anchor Chain Corrosion Control",
-      },
-      {
-        path: "/product/S2S_Automotive_Rust_Proofing",
-        key: "/product/S2S_Automotive_Rust_Proofing",
-        name: "S2S Automotive Rust Proofing",
-      },
-    ],
-  },
-  // update
   {
     path: "/product/S2S_HD_Corrosion_Shield",
     key: "/product/S2S_HD_Corrosion_Shield",

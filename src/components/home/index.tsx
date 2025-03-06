@@ -531,7 +531,7 @@ const HomeScreen = ({ isMobile }: { isMobile: boolean }) => {
 
             <div style={{ padding: '20px 50px', textAlign: 'center' }}>
 {/* update */}
-<Row gutter={[16, 16]} style={{ marginTop: '20px', cursor: 'pointer' }} onClick={() => PushNavigateTo(`/product/CarbonSeal`)}>
+<Row gutter={[16, 16]} style={{ marginTop: '20px', cursor: 'pointer' }} onClick={() => PushNavigateTo(`/product/Coating_Quality_Measurement`)}>
                     {/* Mitigation Solution Section */}
                     {!isMobile && (
                         <Col xs={24} md={6} lg={6} xl={6}>
@@ -578,8 +578,8 @@ const HomeScreen = ({ isMobile }: { isMobile: boolean }) => {
                                 }}
                             >
                                 <Image
-                                    src="/background/bg8.png"
-                                    alt="Corrective Solution"
+                                    src="/background/bg10.jpg"
+                                    alt="Mitigation Solution"
                                     layout="fill"
                                     objectFit="cover"
                                     loading="lazy"
@@ -608,7 +608,7 @@ const HomeScreen = ({ isMobile }: { isMobile: boolean }) => {
                             <Button
                                 type="primary"
                                 style={{ position: 'absolute', bottom: '10px', right: '10px' }}
-                                onClick={() => PushNavigateTo(`/product/CarbonSeal`)}
+                                onClick={() => PushNavigateTo(`/product/Coating_Quality_Measurement`)}
                             >
                                 Details &raquo;
                             </Button>

@@ -22,14 +22,14 @@ const DetailPr = () => {
     // @ts-ignore
     const productData = products[name] || {};
 
-    const { title, description, type, advantages, uses, img_type, images, properties, logo, video } = productData;
+    const { title, description, type, advantages, end_use,specification,provides_insight, uses, img_type, images, properties, logo, video } = productData;
     const [modal, setModal] = useState<boolean>(false);
 
     useNavbar(
         [`/product/${name}`],
         [
             { name: "Product & Services", url: `/` },
-            { name: type === "corretive" ? "Corrective Solutions" : "Preventive Solution", url: `/product/${name}` },
+            { name: type === "corretive" ? "Corrective Solutions"   :type === "mitigation" ? "Mitigation Solution": "Preventive Solution", url: `/product/${name}` },
             { name: `${title}`, url: `/product/${name}` },
         ]
     );
@@ -62,6 +62,10 @@ const DetailPr = () => {
                     style={{ height: 60, marginBottom: 25 }}
                 >
                     {![
+                        "Neu_Scan",
+                        "WI_Discovery_Device",
+                        "STIC_60",
+                        "Coating_Quality_Measurement",
                         "Weicon_Ceramic_HC220",
                         "Weicon_GL",
                         "Weicon_HB_300",
@@ -83,12 +87,15 @@ const DetailPr = () => {
                         )
                     }
 
+                
+          
+    
                     {[
                         "CarbonSeal",
                         "StrongHold",
                         "TankWrap",
                         "GlassSeal",
-                        "ChemSeal"
+                        "ChemSeal",
                     ].includes(name as string) && (
                             <img
                                 alt="Product Image"
@@ -97,6 +104,8 @@ const DetailPr = () => {
                             />
                         )
                     }
+          
+    
 
                     {[
                         "Corrwrap",
@@ -197,6 +206,63 @@ const DetailPr = () => {
                 </div>
 
                 <Row gutter={16} style={{ marginTop: 20 }}>
+                    {end_use?.length > 0 && (
+                        <Col xs={24} md={24} lg={12} xl={12}>
+                            <Card title="End Use" bordered={false} style={{ height: "100%" }}>
+                                <List
+                                    dataSource={end_use}
+                                    renderItem={(item) => (
+                                        <List.Item>
+                                            <ul>
+                                                <li>
+                                                    <Paragraph style={{ margin: 0 }}>{item}</Paragraph>
+                                                </li>
+                                            </ul>
+                                        </List.Item>
+                                    )}
+                                />
+                            </Card>
+                        </Col>
+                    )}
+                    
+                    {provides_insight ?.length > 0 && (
+                        <Col xs={24} md={24} lg={12} xl={12}>
+                            <Card title="Provides Insight " bordered={false} style={{ height: "100%" }}>
+                                <List
+                                    dataSource={provides_insight}
+                                    renderItem={(item) => (
+                                        <List.Item>
+                                            <ul>
+                                                <li>
+                                                    <Paragraph style={{ margin: 0 }}>{item}</Paragraph>
+                                                </li>
+                                            </ul>
+                                        </List.Item>
+                                    )}
+                                />
+                            </Card>
+                        </Col>
+                    )}
+
+{specification ?.length > 0 && (
+                        <Col xs={24} md={24} lg={12} xl={12}>
+                            <Card title="Specification " bordered={false} style={{ height: "100%" }}>
+                                <List
+                                    dataSource={specification}
+                                    renderItem={(item) => (
+                                        <List.Item>
+                                            <ul>
+                                                <li>
+                                                    <Paragraph style={{ margin: 0 }}>{item}</Paragraph>
+                                                </li>
+                                            </ul>
+                                        </List.Item>
+                                    )}
+                                />
+                            </Card>
+                        </Col>
+                    )}
+
                     {advantages?.length > 0 && (
                         <Col xs={24} md={24} lg={12} xl={12}>
                             <Card title="Advantages" bordered={false} style={{ height: "100%" }}>
