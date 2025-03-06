@@ -743,7 +743,7 @@ export const products = {
       "Prognoses of % visible corrosion over time  ",
     ],
     images: [
-      "/mitigation/Product_Coating_Quality_Measurement/image_1.png",
+      "/mitigation/Product_Coating_Quality_Measurement/image.png",
       "/mitigation/Product_Coating_Quality_Measurement/image_6.jpg",
       "/mitigation/Product_Coating_Quality_Measurement/image_3.jpg",
       "/mitigation/Product_Coating_Quality_Measurement/image_2.png",
