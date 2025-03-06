@@ -82,7 +82,7 @@ const Timeline: React.FC<TimelineProps> = () => {
                             />
                         </Col>
                         <Col style={{ marginLeft: 10 }}>
-                            <h2>2024</h2>
+                            <h2>2025</h2>
                             <p style={{ marginTop: 20, marginBottom: 20 }}>Continuing our wonderful journey!</p>
                         </Col>
                         <Col>

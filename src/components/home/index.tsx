@@ -530,15 +530,98 @@ const HomeScreen = ({ isMobile }: { isMobile: boolean }) => {
             </Row>
 
             <div style={{ padding: '20px 50px', textAlign: 'center' }}>
+{/* update */}
+<Row gutter={[16, 16]} style={{ marginTop: '20px', cursor: 'pointer' }} onClick={() => PushNavigateTo(`/product/Coating_Quality_Measurement`)}>
+                    {/* Mitigation Solution Section */}
+                    {!isMobile && (
+                        <Col xs={24} md={6} lg={6} xl={6}>
+                            <div style={{
+                                display: 'flex',
+                                flexDirection: 'column',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                height: '100%',
+                                border: '1px solid #E0E0E0',
+                                borderRadius: '8px',
+                                padding: '20px'
+                            }}>
+                                <Image
+                                    src="/Icon/brushes.png"
+                                    alt="Mitigation Solution"
+                                    width={"100%"}
+                                    height={"100px"}
+                                    loading="lazy"
+                                />
+                                <h3 style={{ fontWeight: 'bold' }}>Mitigation Solutions</h3>
+                            </div>
+                        </Col>
+                    )}
+                    <Col xs={24} md={18} lg={18} xl={18}>
+                        <div style={{ position: 'relative', textAlign: 'left' }}>
+                            {/* <img
+                                src="../background/bg6.jpg"
+                                alt="Corrective Solution"
+                                style={{
+                                    width: '100%',
+                                    height: '200px',
+                                    borderRadius: '8px',
+                                    objectFit: 'cover'
+                                }}
+                            /> */}
+                            <div
+                                style={{
+                                    position: 'relative',
+                                    width: '100%',
+                                    height: '200px', // Set your desired height
+                                    borderRadius: '8px',
+                                    overflow: 'hidden', // Ensures the image respects the borderRadius
+                                }}
+                            >
+                                <Image
+                                    src="/background/bg10.jpg"
+                                    alt="Mitigation Solution"
+                                    layout="fill"
+                                    objectFit="cover"
+                                    loading="lazy"
+                                />
+                            </div>
+
+                            {isMobile && (
+                                <div style={{
+                                    position: 'absolute',
+                                    top: 0,
+                                    left: 0,
+                                    width: '100%',
+                                    height: '100%',
+                                    backgroundColor: 'rgba(0, 0, 0, 0.4)',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    color: 'white',
+                                    fontWeight: 'bold',
+                                    fontSize: '20px',
+                                    borderRadius: '8px'
+                                }}>
+                                    Corrective Solution
+                                </div>
+                            )}
+                            <Button
+                                type="primary"
+                                style={{ position: 'absolute', bottom: '10px', right: '10px' }}
+                                onClick={() => PushNavigateTo(`/product/Coating_Quality_Measurement`)}
+                            >
+                                Details &raquo;
+                            </Button>
+                        </div>
+                    </Col>
+                </Row>
+{/* update */}
+
                 <Row gutter={[16, 16]} style={{ marginTop: '20px', cursor: 'pointer' }} onClick={() => PushNavigateTo(`/product/S2S_HD_Corrosion_Shield`)}>
                     {/* Preventive Solution Section */}
                     <Col xs={24} md={18} lg={18} xl={18}>
                         <div style={{ position: 'relative', textAlign: 'left' }}>
-                            {/* <img
-                                src="../background/c.jpg"
-                                alt="Preventive Solution"
-                                style={{ width: '100%', borderRadius: '8px', height: '200px', objectFit: 'cover' }}
-                            /> */}
+                        
                             <div
                                 style={{
                                     position: 'relative',

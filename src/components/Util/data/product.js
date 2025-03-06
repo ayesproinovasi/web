@@ -1,6 +1,9 @@
 // /data/productData.js
 
 export const products = {
+  //update
+
+  //update
   S2S_PLID_Wrap: {
     title: "S2S PLID WRAP",
     description:
@@ -409,7 +412,7 @@ export const products = {
     logo: ["/Logo Weicon.png"],
     images: [
       "/Foto Weicon HC 220/AWB_10120005_WEICON_Keramik HC 220_Auftragung_01_1920x1920.jpg",
-      "/Foto Weicon HC 220/PA_10120020_WEICON_HC_220_1920x1920.jpg"
+      "/Foto Weicon HC 220/PA_10120020_WEICON_HC_220_1920x1920.jpg",
     ],
   },
   Weicon_GL: {
@@ -436,7 +439,7 @@ export const products = {
     logo: ["/Logo Weicon.png"],
     images: [
       "/Foto Weicon GL/AWB_10700005_WEICON_GL_Auftragung_01_280x280.jpg",
-      "/Foto Weicon GL/PA_10700002_WEICON GL_001_1920x1920.jpg"
+      "/Foto Weicon GL/PA_10700002_WEICON GL_001_1920x1920.jpg",
     ],
   },
   Weicon_HB_300: {
@@ -463,7 +466,7 @@ export const products = {
     logo: ["/Logo Weicon.png"],
     images: [
       "/Foto Weicon HB 300/AWB_10450010_WEICON HB 300_Pipeline_3_001_1920x1920.jpg",
-      "/Foto Weicon HB 300/PA_10450002_WEICON_HB_300_1920x1920.jpg"
+      "/Foto Weicon HB 300/PA_10450002_WEICON_HB_300_1920x1920.jpg",
     ],
   },
   Weicon_HP: {
@@ -722,6 +725,107 @@ export const products = {
       "/Product_Corwrap/Picture2.png",
       "/Product_Corwrap/Picture3.png",
       "/Product_Corwrap/Picture4.png",
+    ],
+  },
+  Coating_Quality_Measurement: {
+    title: "Coating Quality Measurement",
+    // properties: ["TDS by request"],
+    type: "mitigation",
+    description: "Coating Quality Measurement (CQM) is a further developed version of Electrochemical Impedance Spectroscopy. While EIS can only perform a maximum of two measurements a day, CQM can perform hundreds. As a result, outliers are easily detected, and the reliability of test results is increased. This method of maintaining assets prevents failure and downtime by repairing corroded area’s before the structural integrity is at risk. Predictive Maintenance saves up to 40% of maintenance costs. Additionally, it is used to develop a numerical model to predict the lifetime of the measured asset.",
+    end_use: [
+      "CQM is used to examine the condition of coatings and can provide indications on the protecve characteristics of the coating systems.",
+    ],
+    provides_insight: [
+      "How good the (visually intact) coating really protects",
+      "Coating degradation over time ",
+      "Presence of corrosion underneath coating layers. ",
+      "Prognoses when corrosion starts",
+      "Prognoses of % visible corrosion over time  ",
+    ],
+    images: [
+      "/mitigation/Product_Coating_Quality_Measurement/image_1.png",
+      "/mitigation/Product_Coating_Quality_Measurement/image_6.jpg",
+      "/mitigation/Product_Coating_Quality_Measurement/image_3.jpg",
+      "/mitigation/Product_Coating_Quality_Measurement/image_2.png",
+      "/mitigation/Product_Coating_Quality_Measurement/image_4.jpg",
+      "/mitigation/Product_Coating_Quality_Measurement/image_5.jpg",
+      "/mitigation/Product_Coating_Quality_Measurement/image_7.jpg",
+    ],
+  },
+  Neu_Scan : {
+    title: "Neu Scan",
+    // properties: ["TDS by request"],
+    type: "mitigation",
+    description: "Neu Scan NDT is an advanced non-destructive testing (NDT) method designed to detect and assess moisture presence in insulated piping, vessels, and tanks. Utilizing Neutron BackscaƩer Scan (NBS) technology, this method relies on a radioactive source that emits high-energy fast neutrons into the insulation. The interaction between these neutrons and hydrogen atoms within the insulation enables precise identification of moisture content, as the detector measures the quantity of low-energy neutrons scaƩered back.  This approach is particularly effective in detecting super wet or saturated insulation, helping prevent corrosion under insulation (CUI), a major concern in industrial facilities.",
+    end_use: [
+      "Neu Scan NDT is widely applied in industries such as oil and gas, petrochemicals, power plants, and marine operations, where insulated assets are vulnerable to hidden moisture infiltration. It plays a crucial role in predictive maintenance programs, allowing asset owners to pinpoint moisture-affected areas without removing insulation, thus reducing downtime and maintenance costs. ",
+    ],
+    provides_insight: [
+      "By offering real-time data on moisture distribution within insulation layers, Neu Scan NDT helps maintenance teams make informed decisions regarding repair or replacement strategies. The technique enhances asset integrity management by minimizing the risk of undetected CUI, ultimately extending the service life of insulated equipment and ensuring operational safety. ",
+    ],
+    images: [
+      "/mitigation/Product_NeuScan/image_1.jpg",
+      "/mitigation/Product_NeuScan/image_2.jpg",
+      "/mitigation/Product_NeuScan/image_3.png",
+      "/mitigation/Product_NeuScan/image_4.jpg",
+    ],
+  },
+  WI_Discovery_Device : {
+    title: "WI Discovery Device",
+    // properties: ["TDS by request"],
+    type: "mitigation",
+    description: "WI Discovery is a SMART device that monitors constantly for leakage to enhance your plant LDAR or preventive maintenance program.  For any process environment where thermal insulation could “conceal leakage” from the pipeline/vessel, WI Discovery device is the SMART solution. Each WI Discovery device can detect, indicate and identify the location of any fluid or water ingress (conductive or hydrocarbon liquid) present on the pipe surface with LED light flashes or blinking.) ",
+    end_use: [
+      "WI Discovery device is easily to be installed on pipelines or vessels and applicable for the following industries :",
+      "Oil and Gas ",
+      "Petrochemical",
+      "Shipbuilding",
+      "Steel",
+      "Food and Beverage ",
+      "Pulp and Paper",
+      "Sugar Refining ",
+      "Chemical Storage ",
+    ],
+    specification : [
+      "Application : Conductive fluids / hydrocarbon liquid detector",
+      "Power : Lithium Thionyl Chloride Battery",
+      "Maximun operational life : 3 years",
+      "Maximun operation time after activation : 10 days",
+      "Certification details : See certification section",
+      "Water resistance - Index of Protection : IP66",
+      "Minimun pipe outside diameter : 17mm combined with a minimun 15 mm thickness of insulation",
+      "Insulation thicknerss range : 10mm to 80 mm",
+      "Protrusion from pipe surface : max - 210  & min - 168 mm",
+      "Diameter : Approximate 48mm",
+      "Weight : Approximate 85gm",
+    ],
+    images: [
+      "/mitigation/Product_WI_Discovery_Devics/image_1.jpg",
+      "/mitigation/Product_WI_Discovery_Devics/image_2.jpg",
+      "/mitigation/Product_WI_Discovery_Devics/image_3.jpg",
+      "/mitigation/Product_WI_Discovery_Devics/image_4.jpg",
+      "/mitigation/Product_WI_Discovery_Devics/image_5.jpg",
+      "/mitigation/Product_WI_Discovery_Devics/image_6.jpg",
+    ],
+  },
+  STIC_60 : {
+    title: "STIC 60",
+    // properties: ["TDS by request"],
+    type: "mitigation",
+    description: "STIC 60 is a functional coating for identifying hot spots and internal insulation failures or damaged insulation. Exhibiting a visual color change in response to temperature rise. External Cladding surface temperature should not exceed ambiance temperature on any given time and as per ASTM 1055 surface temperature should not be more than 50 Deg C for safe touch (PPE).",
+    end_use: [
+      "STIC 60 is used on Hot vessels in chemical and petrochemical facilities as a one-time warning of dangerous temperature increases due to insulation failures or damaged insulation. ",
+    ],
+    advantages : [
+      "Allowing maintenance to be more focused and cost efficient and early detection of wet/damage insulation ",
+      "Improve the life span & integrity of asset & unnecessary opening good insulation for inspection. ",
+      "Early notification for intervention to located and allowing quick remedial action. ",
+      "Enabling early detection and maintenance for targeted location. ",
+      "No blind spot, does not rely on external forces. ",
+    ],
+    images: [
+      "/mitigation/Product_STIC_60/image_1.png",
+      "/mitigation/Product_STIC_60/image_2.png",
     ],
   },
 };

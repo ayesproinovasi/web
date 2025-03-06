@@ -2,13 +2,68 @@ import { routesType } from "types/Sidebar";
 
 // eslint-disable-next-line import/prefer-default-export
 export const AdminRoutes: routesType = [
+  //update
+  {
+    path: "",
+    key: "Mitigation Solution",
+    name: "Mitigation Solution",
+    icon: "",
+    children: [],
+  },
+  {
+    path: "/product/Coating_Quality_Measurement",
+    key: "/product/Coating_Quality_Measurement",
+    name: "C-Cube",
+    icon: "",
+    children: [
+      {
+        path: "/product/Coating_Quality_Measurement",
+        key: "/product/Coating_Quality_Measurement",
+        name: "Coating Quality Measurement",
+      }
+    ],
+  },
+  
+  {
+    path: "/product/Neu_Scan",
+    key: "/product/Neu_Scan",
+    name: "Scansolution",
+    icon: "",
+    children: [
+      {
+        path: "/product/Neu_Scan",
+        key: "/product/Neu_Scan",
+        name: "NeuScan",
+      },
+      {
+        path: "/product/WI_Discovery_Device",
+        key: "/product/WI_Discovery_Device",
+        name: "WI Discovery Device",
+      },
+    ],
+  },
+  {
+    path: "/product/Neu_Scan",
+    key: "/product/Neu_Scan",
+    name: "Smart Thermal Indicative Coating",
+    icon: "",
+    children: [
+      {
+        path: "/product/STIC_60",
+        key: "/product/STIC_60",
+        name: "STIC 60",
+      }
+    ],
+  },
+  
+  //update
+
   {
     path: "",
     key: "Preventive Solution",
     name: "Preventive Solution",
     icon: "",
-    children: [
-    ],
+    children: [],
   },
   {
     path: "/product/S2S_HD_Corrosion_Shield",
@@ -138,8 +193,7 @@ export const AdminRoutes: routesType = [
     key: "Corrective Solution",
     name: "Corrective Solution",
     icon: "",
-    children: [
-    ],
+    children: [],
   },
   {
     path: "/product/CarbonSeal",
@@ -186,6 +240,6 @@ export const AdminRoutes: routesType = [
         key: "/product/Corrwrap",
         name: "Corwrap",
       },
-    ]
-  }
+    ],
+  },
 ];
