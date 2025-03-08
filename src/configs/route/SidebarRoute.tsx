@@ -237,8 +237,8 @@ export const AdminRoutes: routesType = [
       },
      
       {
-        path: "/product/Guard-Wrap™ Outerwrap",
-        key: "/product/Guard-Wrap™ Outerwrap",
+        path: "/product/Guard_Wrap",
+        key: "/product/Guard_Wrap",
         name: "Guard-Wrap™ Outerwrap",
       },
      
