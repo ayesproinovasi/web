@@ -228,166 +228,7 @@ export const products = {
       "/S2S Automotive/Image%205.jpg",
     ],
   },
-  Non_firming_anticorrosion_wrap: {
-    title: "Non-firming anticorrosion wrap",
-    description:
-      "Wax-Tape #1 wrap is composed of a blend of microcrystalline waxes, plasticizers and corrosion inhibitors saturated into a non-woven, non-stitch bonded synthetic fabric, forming a tape wrapper. They also contain no siliceous mineral fillers.",
-    advantages: [
-      "Ideal where only minimal surface preparation is possible",
-      "Conforms to irregular shapes",
-      "No drying or curing time before backfilling",
-      "Can be applied over wet surfaces",
-      "Nontoxic, nonflammable, noncarcinogenic, no VOCs",
-    ],
-    uses: [
-      "For application on belowground metal surfaces, pipe or fittings to prevent corrosion.",
-    ],
-    img_type: "fit-in",
-    logo: ["/background/Trenton.png"],
-    video: [
-      "https://www.youtube.com/embed/T9OvwS3gpfQ",
-      "https://www.youtube.com/embed/avGANhR3Tlw",
-    ],
-  },
-  self_firming_anticorrosion_wrap: {
-    title: "self-firming anticorrosion wrap",
-    description:
-      "Wax-Tape® #2 wrap is a nonwoven, nonstitch bonded synthetic fabric, saturated with a blend of microcrystalline wax, solvents and corrosion inhibitors (no clay fillers), forming a tape wrapper that firms up and is suitable for painting.",
-    advantages: [
-      "Ideal where only minimal surface preparation is possible",
-      "Conforms to irregular shapes",
-      "No drying or curing time before backfilling",
-      "Can be applied over wet surfaces",
-      "Nontoxic, nonflammable, noncarcinogenic, no VOCs",
-    ],
-    uses: [
-      "For application on belowground metal surfaces, pipe or fittings to prevent corrosion.",
-    ],
-    img_type: "fit-in",
-    logo: ["/background/Trenton.png"],
-    video: [
-      "https://www.youtube.com/embed/T9OvwS3gpfQ",
-      "https://www.youtube.com/embed/avGANhR3Tlw",
-    ],
-  },
-  Trenton_Waxtape_HT_3000_High_Temp_anticorrosion_wrap: {
-    title: "Trenton Waxtape HT 3000 High-Temp anticorrosion wrap",
-    description:
-      "Trenton Wax-Tape® HT-3000 is a specially formulated wax-based tape used for corrosion protection of metal pipe and fixtures experiencing higher than normal temperatures. When used in combination with Trenton Temcoat™ 3000 primer, this easy-to-apply wrap delivers highly effective and durable corrosion protection to bare or coated surfaces in a wide range of field conditions.",
-    advantages: [],
-    uses: [
-      "Wax-Tape HT-3000 can be applied and will perform effectively at continuous operating temperatures of up to 230°F (110°C) and is designed for use in aboveground and belowground applications.",
-    ],
-    img_type: "fit-in",
-    logo: ["/background/Trenton.png"],
-    video: [
-      "https://www.youtube.com/embed/T9OvwS3gpfQ",
-      "https://www.youtube.com/embed/avGANhR3Tlw",
-    ],
-  },
-  Trenton_Temcoat_3000_primer: {
-    title: "Trenton Temcoat 3000 primer",
-    description:
-      "Temcoat™/Temcoat™ 3000 is a high-temperature microcrystalline wax-based coating compound that will not melt and can be applied at ambient temperatures up to 230°F and is easily applied by hand. Temcoat 3000 is designed to maintain spreadability at lower temperatures.",
-    advantages: [
-      "Withstands high ambient temperatures",
-      "Goes on easily by hand",
-      "No primer required",
-      "No waiting for drying or curing",
-      "Nonhazardous, no VOCs",
-      "Minimal surface preparation",
-      "Can be applied to wet pipe",
-    ],
-    uses: [
-      "Temcoat and Temcoat 3000 are used as an anticorrosion compound for aboveground and belowground surfaces. They can be used as a cold-applied coating with a wrapper or as a priming paste with Wax-Tapes®. Because of their paste-like consistency over a wide temperature range, they are an excellent material for filling voids. They can be used for straight pipe, irregular fittings and flat surfaces.",
-    ],
-    img_type: "fit-in",
-    logo: ["/background/Trenton.png"],
-    video: [
-      "https://www.youtube.com/embed/T9OvwS3gpfQ",
-      "https://www.youtube.com/embed/avGANhR3Tlw",
-    ],
-  },
-  Trenton_Patch_Pad_Exothermic_weld_protector: {
-    title: "Trenton Patch-Pad Exothermic weld protector",
-    description:
-      "Trenton Patch-Pad® exothermic weld protector is a versatile, easy-to-apply coating for small applications on pipelines and other metal structures. Patch-Pads are primerless, self adhering, and require minimal surface preparation. The design includes a moldable, self-adhesive coating which can conform to a variety of profiles, combined with a durable polymer backing which provides strong mechanical protection for buried applications.",
-    advantages: [
-      "Easy to apply, simply remove the wrapper and press on, no tools required",
-      "Strong polymer backing for durable corrosion protection",
-      "Minimal surface preparation (dry, NACE SP2) No primer required",
-      "Moldable coating easily conforms to a variety of profiles – can conform to multi lead connections",
-      "Compatible with most pipe coatings",
-      "Conforms to multiple profiles",
-      "No curing, Immediate backfill",
-      "No primer required",
-    ],
-    uses: [
-      "Patch-Pad is ideal for use in protecting Cathodic Protection system connections. It easily conforms to protect a variety of profiles and most connection configurations. Trenton Patch-Pad is designed to provide durable corrosion protection for a variety of small scale applications which require flexibility, strong adhesion, and ease-of-use. Tools are available to facilitate remote installation in keyhole applications.",
-    ],
-    img_type: "fit-in",
-    logo: ["/background/Trenton.png"],
-    video: [
-      "https://www.youtube.com/embed/T9OvwS3gpfQ",
-      "https://www.youtube.com/embed/avGANhR3Tlw",
-    ],
-  },
-  Trenton_Fill_Coat_1_Hot_Applied_Wax_Casing_Filler: {
-    title: "Trenton Fill-Coat #1 Hot Applied Wax Casing Filler",
-    description:
-      "Fill-Coat #1® is a low melt point, hot-installed petrolatum compound that sets up relatively firm at ground temperatures commonly found in normal pipeline operations. It has good “wetting” and adhesion characteristics and prevents possible corrosion of pipe in casings. Fill-Coat #1 meets the Department of Transportation requirements for shorted casings, and is expertly installed from readily available inventories by Trenton personnel.",
-    advantages: [
-      "Prevents galvanic and atmospheric corrosion within casings",
-      "Has good “wetting” and adhesion characteristics",
-      "Displaces and prevents re-entry of water in casings",
-      "Corrects “water shorts”",
-      "Protects casing from deterioration",
-      "Reduces cathodic protection current drain Possibly corrects “metallic short”",
-      "Satisfies DOT requirements for shorted casings",
-      "Carrier pipe can be removed",
-      "Inert and nonvolatile",
-      "Relatively inexpensive",
-      "Delivered and installed by heated tank trucks",
-      "Extra material brought to jobsite",
-      "Surplus material returned to our facilities at no extra charge",
-      "Material installed through meters",
-      "Experienced personnel to perform work",
-      "Equipment available for small and large jobs",
-      "Storage facilities to insure material availability",
-    ],
-    uses: [
-      "Fill-coat #1 is used to displace water that may other-wise be present in the annular space between a casing and internal carrier pipe.",
-    ],
-    img_type: "fit-in",
-    logo: ["/background/Trenton.png"],
-    video: [
-      "https://www.youtube.com/embed/T9OvwS3gpfQ",
-      "https://www.youtube.com/embed/avGANhR3Tlw",
-    ],
-  },
-  Trenton_Fill_Coat_2_Hot_Applied_Wax_Casing_Filler: {
-    title: "Trenton Fill-Coat #2 Hot Applied Wax Casing Filler",
-    description:
-      "Fill-Coat #2® is designed to be installed cold out of a 55 gallon drum for small quantity requirements. It remains in a firm gel consistency at ground temperatures commonly found in normal pipeline operations.",
-    advantages: [
-      "Presents galvanic and atmospheric corrosion within casings",
-      "Displaces and prevents re-entry of water in casing",
-      "Satisfies DOT requirements for shorted casings",
-      "Carrier pipe can be removed",
-      "Inert, non-hazardous, and non-volatile",
-      "Pumpable at temperatures above 55°F without heating",
-      "Economical for small quantity requirements",
-    ],
-    uses: [
-      "Fill-Coat #2 is used to fill the annular space between the pipeline casing and the carrier pipe. It displaces water that may be present and it prevents water from re-entering thereby mitigating any further corrosion.",
-    ],
-    img_type: "fit-in",
-    logo: ["/background/Trenton.png"],
-    video: [
-      "https://www.youtube.com/embed/T9OvwS3gpfQ",
-      "https://www.youtube.com/embed/avGANhR3Tlw",
-    ],
-  },
+
   Weicon_Ceramic_HC220: {
     title: "Weicon Ceramic HC220",
     properties: [
@@ -731,8 +572,9 @@ export const products = {
     title: "Coating Quality Measurement",
     // properties: ["TDS by request"],
     type: "mitigation",
-    description: "Coating Quality Measurement (CQM) is a further developed version of Electrochemical Impedance Spectroscopy. While EIS can only perform a maximum of two measurements a day, CQM can perform hundreds. As a result, outliers are easily detected, and the reliability of test results is increased. This method of maintaining assets prevents failure and downtime by repairing corroded area’s before the structural integrity is at risk. Predictive Maintenance saves up to 40% of maintenance costs. Additionally, it is used to develop a numerical model to predict the lifetime of the measured asset.",
-    end_use: [
+    description:
+      "Coating Quality Measurement (CQM) is a further developed version of Electrochemical Impedance Spectroscopy. While EIS can only perform a maximum of two measurements a day, CQM can perform hundreds. As a result, outliers are easily detected, and the reliability of test results is increased. This method of maintaining assets prevents failure and downtime by repairing corroded area’s before the structural integrity is at risk. Predictive Maintenance saves up to 40% of maintenance costs. Additionally, it is used to develop a numerical model to predict the lifetime of the measured asset.",
+    uses: [
       "CQM is used to examine the condition of coatings and can provide indications on the protecve characteristics of the coating systems.",
     ],
     provides_insight: [
@@ -752,12 +594,13 @@ export const products = {
       "/mitigation/Product_Coating_Quality_Measurement/image_7.jpg",
     ],
   },
-  Neu_Scan : {
+  Neu_Scan: {
     title: "Neu Scan",
     // properties: ["TDS by request"],
     type: "mitigation",
-    description: "Neu Scan NDT is an advanced non-destructive testing (NDT) method designed to detect and assess moisture presence in insulated piping, vessels, and tanks. Utilizing Neutron BackscaƩer Scan (NBS) technology, this method relies on a radioactive source that emits high-energy fast neutrons into the insulation. The interaction between these neutrons and hydrogen atoms within the insulation enables precise identification of moisture content, as the detector measures the quantity of low-energy neutrons scaƩered back.  This approach is particularly effective in detecting super wet or saturated insulation, helping prevent corrosion under insulation (CUI), a major concern in industrial facilities.",
-    end_use: [
+    description:
+      "Neu Scan NDT is an advanced non-destructive testing (NDT) method designed to detect and assess moisture presence in insulated piping, vessels, and tanks. Utilizing Neutron BackscaƩer Scan (NBS) technology, this method relies on a radioactive source that emits high-energy fast neutrons into the insulation. The interaction between these neutrons and hydrogen atoms within the insulation enables precise identification of moisture content, as the detector measures the quantity of low-energy neutrons scaƩered back.  This approach is particularly effective in detecting super wet or saturated insulation, helping prevent corrosion under insulation (CUI), a major concern in industrial facilities.",
+    uses: [
       "Neu Scan NDT is widely applied in industries such as oil and gas, petrochemicals, power plants, and marine operations, where insulated assets are vulnerable to hidden moisture infiltration. It plays a crucial role in predictive maintenance programs, allowing asset owners to pinpoint moisture-affected areas without removing insulation, thus reducing downtime and maintenance costs. ",
     ],
     provides_insight: [
@@ -770,12 +613,13 @@ export const products = {
       "/mitigation/Product_NeuScan/image_4.jpg",
     ],
   },
-  WI_Discovery_Device : {
+  WI_Discovery_Device: {
     title: "WI Discovery Device",
     // properties: ["TDS by request"],
     type: "mitigation",
-    description: "WI Discovery is a SMART device that monitors constantly for leakage to enhance your plant LDAR or preventive maintenance program.  For any process environment where thermal insulation could “conceal leakage” from the pipeline/vessel, WI Discovery device is the SMART solution. Each WI Discovery device can detect, indicate and identify the location of any fluid or water ingress (conductive or hydrocarbon liquid) present on the pipe surface with LED light flashes or blinking.) ",
-    end_use: [
+    description:
+      "WI Discovery is a SMART device that monitors constantly for leakage to enhance your plant LDAR or preventive maintenance program.  For any process environment where thermal insulation could “conceal leakage” from the pipeline/vessel, WI Discovery device is the SMART solution. Each WI Discovery device can detect, indicate and identify the location of any fluid or water ingress (conductive or hydrocarbon liquid) present on the pipe surface with LED light flashes or blinking.) ",
+    uses: [
       "WI Discovery device is easily to be installed on pipelines or vessels and applicable for the following industries :",
       "Oil and Gas ",
       "Petrochemical",
@@ -786,19 +630,19 @@ export const products = {
       "Sugar Refining ",
       "Chemical Storage ",
     ],
-    specification : [
-      "Application : Conductive fluids / hydrocarbon liquid detector",
-      "Power : Lithium Thionyl Chloride Battery",
-      "Maximun operational life : 3 years",
-      "Maximun operation time after activation : 10 days",
-      "Certification details : See certification section",
-      "Water resistance - Index of Protection : IP66",
-      "Minimun pipe outside diameter : 17mm combined with a minimun 15 mm thickness of insulation",
-      "Insulation thicknerss range : 10mm to 80 mm",
-      "Protrusion from pipe surface : max - 210  & min - 168 mm",
-      "Diameter : Approximate 48mm",
-      "Weight : Approximate 85gm",
-    ],
+    // specification : [
+    //   "Application : Conductive fluids / hydrocarbon liquid detector",
+    //   "Power : Lithium Thionyl Chloride Battery",
+    //   "Maximun operational life : 3 years",
+    //   "Maximun operation time after activation : 10 days",
+    //   "Certification details : See certification section",
+    //   "Water resistance - Index of Protection : IP66",
+    //   "Minimun pipe outside diameter : 17mm combined with a minimun 15 mm thickness of insulation",
+    //   "Insulation thicknerss range : 10mm to 80 mm",
+    //   "Protrusion from pipe surface : max - 210  & min - 168 mm",
+    //   "Diameter : Approximate 48mm",
+    //   "Weight : Approximate 85gm",
+    // ],
     images: [
       "/mitigation/Product_WI_Discovery_Devics/image_1.jpg",
       "/mitigation/Product_WI_Discovery_Devics/image_2.jpg",
@@ -808,15 +652,16 @@ export const products = {
       "/mitigation/Product_WI_Discovery_Devics/image_6.jpg",
     ],
   },
-  STIC_60 : {
+  STIC_60: {
     title: "STIC 60",
     // properties: ["TDS by request"],
     type: "mitigation",
-    description: "STIC 60 is a functional coating for identifying hot spots and internal insulation failures or damaged insulation. Exhibiting a visual color change in response to temperature rise. External Cladding surface temperature should not exceed ambiance temperature on any given time and as per ASTM 1055 surface temperature should not be more than 50 Deg C for safe touch (PPE).",
-    end_use: [
+    description:
+      "STIC 60 is a functional coating for identifying hot spots and internal insulation failures or damaged insulation. Exhibiting a visual color change in response to temperature rise. External Cladding surface temperature should not exceed ambiance temperature on any given time and as per ASTM 1055 surface temperature should not be more than 50 Deg C for safe touch (PPE).",
+    uses: [
       "STIC 60 is used on Hot vessels in chemical and petrochemical facilities as a one-time warning of dangerous temperature increases due to insulation failures or damaged insulation. ",
     ],
-    advantages : [
+    advantages: [
       "Allowing maintenance to be more focused and cost efficient and early detection of wet/damage insulation ",
       "Improve the life span & integrity of asset & unnecessary opening good insulation for inspection. ",
       "Early notification for intervention to located and allowing quick remedial action. ",
@@ -828,4 +673,504 @@ export const products = {
       "/mitigation/Product_STIC_60/image_2.png",
     ],
   },
+
+  //treton
+  //waxtape
+  WaxTape_1_Non_firming_Wrap: {
+    title: "Wax-Tape #1 Non-firming wrap",
+    img_type: "fit-in",
+    logo: ["/background/Trenton.png"],
+    description:
+      "Wax-Tape #1 wrap is composed of a blend of microcrystalline waxes, plasticizers and corrosion inhibitors saturated into a non-woven, non-stitch bonded synthetic fabric, forming a tape wrapper. They also contain no siliceous mineral fillers.",
+    uses: [
+      "For application on belowground metal surfaces, pipe or fittings to prevent corrosion.",
+    ],
+    advantages: [
+      "Ideal where only minimal surface preparation is possible",
+      "Conforms to irregular shapes",
+      "No drying or curing time before backfilling",
+      "Can be applied over wet surfaces",
+      "Nontoxic, nonflammable, noncarcinogenic, no VOCs",
+    ],
+    images: [
+      "/Product_Trenton/waxtape/Waxtape1/Img1.jpg",
+      "/Product_Trenton/waxtape/Waxtape1/Img2.jpg",
+    ],
+  },
+  WaxTape_2_Self_Firming_Wrap: {
+    title: "Wax-Tape #2 Self-firming wrap",
+    img_type: "fit-in",
+    logo: ["/background/Trenton.png"],
+    description:
+      "Wax-Tape® #2 wrap is a nonwoven, nonstitch bonded synthetic fabric, saturated with a blend of microcrystalline wax, solvents and corrosion inhibitors (no clay fillers), forming a tape wrapper that firms up and is suitable for painting.",
+    uses: [
+      "For application on aboveground and belowground metal surfaces, pipe or fittings to prevent corrosion. Excellent for use when abrasive blasting or painting is impractical. Resists weathering and UV without the need for an additional outercoat or outerwrap.",
+    ],
+    advantages: [
+      "Minimal surface preparation",
+      "Readily conforms to irregular shapes",
+      "Nontoxic, noncarcinogenic, contains low VOCs",
+      "Resistant to corrosive industrial atmospheres",
+      "Can be applied over wet surfaces",
+      "Compatible with other coatings",
+      "Tape firms up and does not require additional outercoat or outerwrap",
+      "Excellent resistance to weathering and UV",
+      "Can be painted after firming up",
+    ],
+    images: [
+      "/Product_Trenton/waxtape/Waxtape2/Img1.jpg",
+      "/Product_Trenton/waxtape/Waxtape2/Img2.jpg",
+      "/Product_Trenton/waxtape/Waxtape2/Img3.jpg",
+    ],
+  },
+
+  Waxtape_HT_3000: {
+    title: "Wax-Tape HT 3000",
+    description:
+      "Trenton Wax-Tape® HT-3000 is a specially formulated wax-based tape used for corrosion protection of metal pipe and fixtures experiencing higher than normal temperatures. When used in combination with Trenton Temcoat™ 3000 primer, this easy-to-apply wrap delivers highly effective and durable corrosion protection to bare or coated surfaces in a wide range of field conditions.",
+    advantages: [],
+    uses: [
+      "Wax-Tape HT-3000 can be applied and will perform effectively at continuous operating temperatures of up to 230°F (110°C) and is designed for use in aboveground and belowground applications.",
+    ],
+    img_type: "fit-in",
+    logo: ["/background/Trenton.png"],
+    video: [
+      "https://www.youtube.com/embed/T9OvwS3gpfQ",
+      "https://www.youtube.com/embed/avGANhR3Tlw",
+    ],
+  },
+  Riser_Kits: {
+    title: "Riser Kits",
+    description:
+      "Trenton Riser Kits combine the durability and protection that Trenton Wax-Tape® wrap is famous for, and make it even easier to use. The kits include custom-sized sections of Trenton Wax-Tape® #2 self-firming anticorrosion wrap, precut and ready to use out of the box. Application of the Wax-Tape wrap requires Trenton’s versatile Temcoat™ 3000 primer, available separately in convenient 16-oz. tubs.",
+    images: [],
+  },
+  //waxtape
+  //primer or other product
+  WaxTape_Primer_Brown: {
+    title: "Wax-Tape® Primer (Brown)",
+    description:
+      "Trenton Wax-Tape® Primer is a blend of microcrystalline waxes, plasticizers, and corrosion inhibitors (no clay fillers). It has a paste-like consistency and is designed to displace moisture and wet the surface, ensuring a continuous anticorrosion film on the surface prior to wrapping with Wax-Tape® wrap. Wax-Tape Primer remains spreadable even in cold conditions. In high-temperature applications, Trenton Temcoat™ 3000 is the preferred primer.",
+    advantages: [
+      "Goes on easily by hand",
+      "Displaces moisture",
+      "Penetrates surface rust",
+      "Facilitates wetting of surfaces",
+      "Only a thin coat is required",
+      "No waiting for drying or curing",
+      "No mixing, thinning or stirring",
+      "Compatible with other coatings",
+      "Nontoxic, nonflammable, noncarcinogenic, no VOCs",
+    ],
+    uses: [
+      "As a surface conditioner for aboveground and belowground metal surfaces prior to application of Trenton Wax-Tape® #1 and #2 wraps.",
+    ],
+    img_type: "fit-in",
+    logo: ["/background/Trenton.png"],
+    images: ["/Product_Trenton/primers/waxtape_brown/img1.jpg"],
+  },
+  WaxTape_Primer_White: {
+    title: "Wax-Tape® Primer (White)",
+    description:
+      "Wax-Tape® Primer is a blend of microcrystalline waxes, plasticizers, and corrosion inhibitors (no clay fillers). It has a paste-like consistency and is designed to displace moisture and wet the surface, ensuring adhesion of the tape.",
+    advantages: [
+      "Goes on easily by hand",
+      "Displaces moisture",
+      "Penetrates surface rust",
+      "Facilitates wetting of surfaces",
+      "Ensures adhesion of tape",
+      "Only a thin coat is required",
+      "No waiting for drying or curing",
+      "No mixing, thinning or stirring",
+      "Compatible with other coatings",
+      "Nontoxic, nonflammable, noncarcinogenic, no VOCs",
+    ],
+    uses: [
+      "As a surface conditioner for above and belowground metal surfaces prior to application of Trenton Wax-Tapes.",
+    ],
+    img_type: "fit-in",
+    logo: ["/background/Trenton.png"],
+  },
+  Trenton_Temcoat_3000_primer: {
+    title: "Temcoat™ Primer  Temcoat™ 3000 Primer",
+    description:
+      "Temcoat™/Temcoat™ 3000 is a high-temperature microcrystalline wax-based coating compound that will not melt and can be applied at ambient temperatures up to 230°F and is easily applied by hand. Temcoat 3000 is designed to maintain spreadability at lower temperatures.",
+    advantages: [
+      "Withstands high ambient temperatures",
+      "Goes on easily by hand",
+      "No primer required",
+      "No waiting for drying or curing",
+      "Nonhazardous, no VOCs",
+      "Minimal surface preparation",
+      "Can be applied to wet pipe",
+    ],
+    uses: [
+      "Temcoat and Temcoat 3000 are used as an anticorrosion compound for aboveground and belowground surfaces. They can be used as a cold-applied coating with a wrapper or as a priming paste with Wax-Tapes®. Because of their paste-like consistency over a wide temperature range, they are an excellent material for filling voids. They can be used for straight pipe, irregular fittings and flat surfaces.",
+    ],
+    img_type: "fit-in",
+    logo: ["/background/Trenton.png"],
+    images: ["/Product_Trenton/primers/Temcoat_3000_primer/image1.jpg"],
+    // video: [
+    //   "https://www.youtube.com/embed/T9OvwS3gpfQ",
+    //   "https://www.youtube.com/embed/avGANhR3Tlw",
+    // ],
+  },
+  Fill_Pro_Profiling_Mastic: {
+    title: "Fill-Pro™ PM-GP Profiling Mastic",
+    description:
+      "Trenton Fill-Pro™ PM-GP Profiling Mastic is a specially formulated, moldable mastic for use with Trenton Wax-Tape® anticorrosion wraps and primers. FillPro PM-GP profiling mastic incorporates a blend of petrolatum and polymer-based components to form a cold-applied, self-adhesive and self-supporting mastic. FillPro PM-GP profiling mastic is compatible with all Trenton anticorrosion wraps and primers.",
+
+    uses: [
+      "FillPro PM-GP profiling mastic is used to establish smooth profiles over irregularly shaped fittings, such as flanged joints and valves. It can be used in combination with Trenton Wax-Tape® wraps and primers to create an effective exterior corrosion coating for pipelines, restraints and couplers.",
+    ],
+    img_type: "fit-in",
+    logo: ["/background/Trenton.png"],
+  },
+  Fill_Putty_Profiling_Mastic: {
+    title: "Fill-Pro™ PM-GP Profiling Mastic",
+    description:
+      "Fill-Putty™ is an anticorrosive moldable filler material used to even the contours of irregular fittings and surfaces. Once applied, it is overwrapped with Trenton’s Wax-Tapes®.",
+
+    img_type: "fit-in",
+    logo: ["/background/Trenton.png"],
+    images: ["/Product_Trenton/primers/fill_putty/image_1.jpg"],
+  },
+  Patch_Pad_Exothermic_Weld_Protector: {
+    title: "Patch-Pad® Exothermic Weld Protector",
+    description:
+      "Trenton Patch-Pad® exothermic weld protector is a versatile, easy-to-apply coating for small applications on pipelines and other metal structures. Patch-Pads are primerless, self adhering, and require minimal surface preparation. The design includes a moldable, self-adhesive coating which can conform to a variety of profiles, combined with a durable polymer backing which provides strong mechanical protection for buried applications.",
+    uses: [
+      "Patch-Pad is ideal for use in protecting Cathodic Protection system connections. It easily conforms to protect a variety of profiles and most connection configurations. Trenton Patch-Pad is designed to provide durable corrosion protection for a variety of small scale applications which require flexibility, strong adhesion, and ease-of-use. Tools are available to facilitate remote installation in keyhole applications.",
+    ],
+    img_type: "fit-in",
+    logo: ["/background/Trenton.png"],
+    images: [
+      "/Product_Trenton/primers/Patch_Pad/img1.jpg",
+      "/Product_Trenton/primers/Patch_Pad/img2.jpg",
+      "/Product_Trenton/primers/Patch_Pad/img3.jpg",
+    ],
+  },
+  //primer or other product
+
+  //Innercoat® Hot-Applied Wax Coating System
+  Innercoat_for_Pipeline_Reconditioning: {
+    title: "Innercoat® for Pipeline Reconditioning",
+    description:
+      "Innercoat® is a blend of microcrystalline waxes designed to provide the most desirable corrosion resistance, adhesion and wetting characteristics. It is hot-applied directly to the pipe surface and is always over-wrapped with a proper Trenton wrapper depending on the type of application. Its ease of application and “forgiving” character in difficult applications make it an ideal all-purpose pipe coating.",
+    uses: [
+      "To protect straight pipe or irregular metal surfaces from corrosion. It can be used for new services, field patching, weld cutbacks and pipeline reconditioning.",
+    ],
+    img_type: "fit-in",
+    logo: ["/background/Trenton.png"],
+    advantages: [
+      "An effective pipe coating proven by over 50 years’ field use",
+      "Excellent corrosion barrier Low moisture absorption and transmission",
+      "Excellent dielectric barrier Excellent wetting and adhesion properties",
+      "Excellent ductility",
+      "Permanently inert",
+      "Resistant to chemicals and bacteria commonly found in soils",
+      "Easy to apply Compatible with other coating materials",
+      "Can be reheated without altering composition",
+      "No primers required",
+      "No waiting before backfilling",
+      "No dangerous fumes",
+      "Nontoxic, noncarcinogenic",
+      "Packaged in convenient 7 1/2 lb. blocks or 47 lb. box",
+    ],
+  },
+
+  Innercoat_for_Flange_Fill: {
+    title: "Innercoat® for Flange-Fill",
+    img_type: "fit-in",
+    logo: ["/background/Trenton.png"],
+    images: ["/Product_Trenton/innercoat/Flange_Fill/img1.jpg"],
+  },
+  //Innercoat® Hot-Applied Wax Coating System
+  //MCO® Outerwrap
+  MCO_Outerwrap: {
+    title: "MCO® Outerwrap",
+    description:
+      "MCO® outerwrap is a specialized blend of quick curing resins impregnated into a fiberglass fabric. It provides soil stress and backfill protection to coatings that need additional mechanical strength. MCO outerwrap is specifically designed as a “hard shell” outerwrap over the Trenton Wax-Tape® wraps. It can also be used over other coatings. It is sold complete with gloves and Trenton MCO outerwrap end adhesive. MCO outerwrap is hand applied, with no other application materials needed.",
+    uses: [
+      "MCO outerwrap is used aboveground or belowground as a mechanical protective wrapper over Trenton’s Wax-Tape® wraps.",
+    ],
+    img_type: "fit-in",
+    logo: ["/background/Trenton.png"],
+    advantages: [
+      "Adds mechanical protection to soft coatings",
+      "Superior protection against soil stress",
+      "Protection against backfill",
+      "A “hard shell” coating that may be painted",
+    ],
+    images: ["/Product_Trenton/outers_wrap/outerwrap/img1.jpg"],
+  },
+  MCO_110_Outerwrap: {
+    title: "MCO® 110 Outerwrap",
+    description:
+      "Trenton MCO® 110 outerwrap is a specialized blend of quick-curing resins impregnated into a fiberglass fabric. It provides protection for coatings that need additional mechanical strength. MCO 110 outerwrap is applied by hand, with no special application tools needed.The MCO 110 outerwrap package includes gloves and Trenton MCO outerwrap end adhesive.If the wrap’s color fades due to UV exposure, MCO 110 can be painted. In especially challenging frost heave conditions, the area above and below the frost line can be wrapped three times for extra strength.",
+    uses: [
+      "MCO outerwrap is used aboveground or belowground as a mechanical protective wrapper over Trenton’s Wax-Tape® wraps.",
+    ],
+    img_type: "fit-in",
+    logo: ["/background/Trenton.png"],
+    images: ["/Product_Trenton/outers_wrap/110outerwrap/img1.jpg"],
+  },
+  PVC_Outerwrap: {
+    title: "PVC Outerwrap",
+    description:
+      "Trenton PVC Outerwrap requires no specific surface preparation and can be applied in a wide variety of environmental conditions. It is simply spiral-wrapped, with an overlap, over the existing corrosion coating. No special tools required.",
+
+    img_type: "fit-in",
+    logo: ["/background/Trenton.png"],
+  },
+  Guard_Wrap: {
+    title: "Guard-Wrap™ Outerwrap",
+    description:
+      "Guard-Wrap™ consists of a spunbonded polyester mat, saturated with microcrystalline wax that is laminated to a polyester film which is coated with microcrystalline wax. Its conformability makes it ideal for wrapping fittings. It also works well on straight pipe.",
+    uses: [
+      "It is used as a protective wrapper over Innercoat® and provides mechanical strength against backfill stress while also contributing an added dielectric barrier.",
+    ],
+    img_type: "fit-in",
+    logo: ["/background/Trenton.png"],
+    advantages: [
+      "Withstands hot-application temperatures",
+      "A two-part wrapper (plastic mat and film) for extra mechanical strength",
+      "Excellent dielectric strength",
+      "Conformable to irregular shapes",
+      "Composed of inert materials",
+      "Resistant to chemicals and bacteria",
+    ],
+    images: ["/Product_Trenton/outers_wrap/guardwrap/img1.jpg"],
+  },
+  Poly_Ply_Outerwrap: {
+    title: "Poly-Ply™ Outerwrap",
+    description:
+      "Poly-Ply™ plastic wrapper consists of three membranes of .5-mil clear, 50 gauge, clear, polyvinylidene chloride plastic, high-cling membranes, wound together as a single sheet. It provides a mechanical and electrical barrier over Temcoat™ or #1 Wax-Tape® while remaining flexible enough to conform to irregular shaped surfaces. It is inert and will not deteriorate, and is resistant to chemicals and bacteria commonly found in soil.",
+    uses: [
+      "As a wrapper over cold-applied Temcoat primer/coating or Trenton Wax-Tape® brand anitcorrosion wraps on straight pipe and irregular metal surfaces, such as T-fittings and Couplings.",
+    ],
+    img_type: "fit-in",
+    logo: ["/background/Trenton.png"],
+    advantages: [
+      "3-ply composition for extra mechanical strength",
+      "High dielectric strength",
+      "Conforms to irregular shapes",
+      "Composed of inert plastic film that will not deteriorate",
+      "Resistant to chemicals and bacteria",
+      "Convenient size of roll",
+      "Relatively inexpensive",
+    ],
+    images: ["/Product_Trenton/outers_wrap/polyply/img1.jpg"],
+  },
+  Glas_Wrap_Outerwrap: {
+    title: "Glas-Wrap™ Outerwrap",
+    description:
+      "Glas-Wrap is a white, resin coated, woven fiber- glass fabric.",
+    uses: [
+      "Used as an overwrap for Trenton’s #1 Wax-Tape® for additional protection against light backfill.",
+    ],
+    img_type: "fit-in",
+    logo: ["/background/Trenton.png"],
+  },
+  //MCO® Outerwrap
+
+  //Casing Filling
+  Trenton_Fill_Coat_1_Hot_Applied_Wax_Casing_Filler: {
+    title: "Trenton Fill-Coat #1 Hot Applied Wax Casing Filler",
+    description:
+      "Fill-Coat #1® is a low melt point, hot-installed petrolatum compound that sets up relatively firm at ground temperatures commonly found in normal pipeline operations. It has good “wetting” and adhesion characteristics and prevents possible corrosion of pipe in casings. Fill-Coat #1 meets the Department of Transportation requirements for shorted casings, and is expertly installed from readily available inventories by Trenton personnel.",
+    advantages: [
+      "Prevents galvanic and atmospheric corrosion within casings",
+      "Has good “wetting” and adhesion characteristics",
+      "Displaces and prevents re-entry of water in casings",
+      "Corrects “water shorts”",
+      "Protects casing from deterioration",
+      "Reduces cathodic protection current drain Possibly corrects “metallic short”",
+      "Satisfies DOT requirements for shorted casings",
+      "Carrier pipe can be removed",
+      "Inert and nonvolatile",
+      "Relatively inexpensive",
+      "Delivered and installed by heated tank trucks",
+      "Extra material brought to jobsite",
+      "Surplus material returned to our facilities at no extra charge",
+      "Material installed through meters",
+      "Experienced personnel to perform work",
+      "Equipment available for small and large jobs",
+      "Storage facilities to insure material availability",
+    ],
+    images: ["/Product_Trenton/cassing_filling/Fillcoat1/img1.jpg"],
+    uses: [
+      "Fill-coat #1 is used to displace water that may other-wise be present in the annular space between a casing and internal carrier pipe.",
+    ],
+    img_type: "fit-in",
+    logo: ["/background/Trenton.png"],
+  },
+  Trenton_Fill_Coat_2_Cold_Applied_Wax_Casing_Filler: {
+    title: "Fill-Coat® #2 Cold-applied Wax Casing Filler",
+    description:
+      "Fill-Coat #2® is designed to be installed cold out of a 55 gallon drum for small quantity requirements. It remains in a firm gel consistency at ground temperatures commonly found in normal pipeline operations.",
+    advantages: [
+      "Presents galvanic and atmospheric corrosion within casings",
+      "Displaces and prevents re-entry of water in casing",
+      "Satisfies DOT requirements for shorted casings",
+      "Carrier pipe can be removed",
+      "Inert, non-hazardous, and non-volatile",
+      "Pumpable at temperatures above 55°F without heating",
+      "Economical for small quantity requirements",
+    ],
+    images: ["/Product_Trenton/cassing_filling/Fillcoat2/img1.jpg"],
+    uses: [
+      "Fill-Coat #2 is used to fill the annular space between the pipeline casing and the carrier pipe. It displaces water that may be present and it prevents water from re-entering thereby mitigating any further corrosion.",
+    ],
+    img_type: "fit-in",
+    logo: ["/background/Trenton.png"],
+  },
+  Trenton_Fill_Coat_6_Cold_Applied_Wax_Casing_Filler: {
+    title: "Fill-Coat® #6 Cold-Applied Wax Casing Filler",
+    description:
+      "Fill-Coat #6® is a cold-installed/high temperature petroleum based casing filler compound that can be installed at ambient temperature as low as 50°F (10°C) with portable pumps. The product is used in bridge abutment casings, and it can be used in casings with elevated temperatures.",
+    advantages: [
+      "Non-Melting",
+      "Anti-Corrosive",
+      "Water Resistant",
+      "Dielectric",
+      "Inert",
+      "Non-Toxic",
+      "Non-Flammable",
+      "Pliable",
+    ],
+    images: ["/Product_Trenton/cassing_filling/Fillcoat6/img1.jpg"],
+    uses: [
+      "Fill-Coat #6 is used to fill the annulus of gas distribution bridge abutment casings. it prevents corrosion by filling the void in the casing annulus. In addition, new water is prevented from entering the gas-filled casing. Applications include aboveground cased pipe (like bridge abutment casings).",
+    ],
+    img_type: "fit-in",
+    logo: ["/background/Trenton.png"],
+  },
+  
+  Pre_Con_Casing_Corrosion_Inhibitor: {
+    title: "Pre-Con® Casing Corrosion Inhibitor",
+    description:
+      "Pre-Con® is a liquid casing water conditioner for pipeline casings. It consists of “wetting” and filming agents, vapor phase inhibitors, alkaline media additives and antibacterial conditioners.",
+    images: ["/Product_Trenton/cassing_filling/precon/img1.jpg"],
+    uses: [
+      "Pre-Con is poured into the casing prior to the installation of Trenton Fill-Coat® casing filler. The method of using these two materials together is a Trenton Corporation patented process*. Pre-Con conditions the water accumulated in the casing so that any small amounts of water that may be entrapped after installation of Fill-Coat casing filler are inhibited and no corrosion should occur.",
+    ],
+    img_type: "fit-in",
+    logo: ["/background/Trenton.png"],
+  },
+  Short_Stop: {
+    title: "Short-Stop™",
+    description:
+      "Short-Stop™ casing end electrical insulator is made of compression-resistant neoprene rubber and installed in casing ends. In addition to dielectric properties, Short-Stop is resistant to oil, water, ozone and chemicals. The Short-Stop insulator will also withstand a wide range of temperature variations.",
+    images: ["/Product_Trenton/cassing_filling/shortstop/img1.jpg"],
+    uses: [
+      "The Short-Stop end insulator is installed in casing ends between carrier pipe and casing to prevent metal-to-metal shorts. Because of its unique slab form, it has no metal components that might cause future shorting-out.",
+    ],
+    img_type: "fit-in",
+    logo: ["/background/Trenton.png"],
+  },
+  Seal_Wrap: {
+    title: "Seal-Wrap™ End Seal",
+    description:
+      "Seal-Wrap™ is a casing end-seal wrapper consisting of a heavy woven glass coated with a butyl mastic of high dielectric quality wrapped around the end of the casing and on the carrier pipe. It is then strapped in place with stainless steel banding.",
+    images: ["/Product_Trenton/cassing_filling/sealwrap/img1.jpg"],
+    uses: [
+      "The Seal-Wrap system was designed by the Trenton Corporation to enable field personnel to readily replace existing “rubber-boot” type end seals that are damaged prior to installation of casing filler. Seal-Wrap can also be used to reinforce existing “boot” or “compression” type seals. This system also has advantages for new construction applications. Seal-Wrap is a simple, efficient method of sealing the annular space between pipe and casing that does not necessitate absolute centering of the pipe in the casing.",
+    ],
+    img_type: "fit-in",
+    logo: ["/background/Trenton.png"],
+  },
+  //Casing Filling
 };
+
+// Trenton_Patch_Pad_Exothermic_weld_protector: {
+//   title: "Trenton Patch-Pad Exothermic weld protector",
+//   description:
+//     "Trenton Patch-Pad® exothermic weld protector is a versatile, easy-to-apply coating for small applications on pipelines and other metal structures. Patch-Pads are primerless, self adhering, and require minimal surface preparation. The design includes a moldable, self-adhesive coating which can conform to a variety of profiles, combined with a durable polymer backing which provides strong mechanical protection for buried applications.",
+//   advantages: [
+//     "Easy to apply, simply remove the wrapper and press on, no tools required",
+//     "Strong polymer backing for durable corrosion protection",
+//     "Minimal surface preparation (dry, NACE SP2) No primer required",
+//     "Moldable coating easily conforms to a variety of profiles – can conform to multi lead connections",
+//     "Compatible with most pipe coatings",
+//     "Conforms to multiple profiles",
+//     "No curing, Immediate backfill",
+//     "No primer required",
+//   ],
+//   uses: [
+//     "Patch-Pad is ideal for use in protecting Cathodic Protection system connections. It easily conforms to protect a variety of profiles and most connection configurations. Trenton Patch-Pad is designed to provide durable corrosion protection for a variety of small scale applications which require flexibility, strong adhesion, and ease-of-use. Tools are available to facilitate remote installation in keyhole applications.",
+//   ],
+//   img_type: "fit-in",
+//   logo: ["/background/Trenton.png"],
+//   video: [
+//     "https://www.youtube.com/embed/T9OvwS3gpfQ",
+//     "https://www.youtube.com/embed/avGANhR3Tlw",
+//   ],
+// },
+
+// Trenton_Fill_Coat_2_Hot_Applied_Wax_Casing_Filler: {
+//   title: "Trenton Fill-Coat #2 Hot Applied Wax Casing Filler",
+//   description:
+//     "Fill-Coat #2® is designed to be installed cold out of a 55 gallon drum for small quantity requirements. It remains in a firm gel consistency at ground temperatures commonly found in normal pipeline operations.",
+//   advantages: [
+//     "Presents galvanic and atmospheric corrosion within casings",
+//     "Displaces and prevents re-entry of water in casing",
+//     "Satisfies DOT requirements for shorted casings",
+//     "Carrier pipe can be removed",
+//     "Inert, non-hazardous, and non-volatile",
+//     "Pumpable at temperatures above 55°F without heating",
+//     "Economical for small quantity requirements",
+//   ],
+//   uses: [
+//     "Fill-Coat #2 is used to fill the annular space between the pipeline casing and the carrier pipe. It displaces water that may be present and it prevents water from re-entering thereby mitigating any further corrosion.",
+//   ],
+//   img_type: "fit-in",
+//   logo: ["/background/Trenton.png"],
+//   video: [
+//     "https://www.youtube.com/embed/T9OvwS3gpfQ",
+//     "https://www.youtube.com/embed/avGANhR3Tlw",
+//   ],
+// },
+
+// Non_firming_anticorrosion_wrap: {
+//   title: "Non-firming anticorrosion wrap",
+//   description:
+//     "Wax-Tape #1 wrap is composed of a blend of microcrystalline waxes, plasticizers and corrosion inhibitors saturated into a non-woven, non-stitch bonded synthetic fabric, forming a tape wrapper. They also contain no siliceous mineral fillers.",
+//   advantages: [
+//     "Ideal where only minimal surface preparation is possible",
+//     "Conforms to irregular shapes",
+//     "No drying or curing time before backfilling",
+//     "Can be applied over wet surfaces",
+//     "Nontoxic, nonflammable, noncarcinogenic, no VOCs",
+//   ],
+//   uses: [
+//     "For application on belowground metal surfaces, pipe or fittings to prevent corrosion.",
+//   ],
+//   img_type: "fit-in",
+//   logo: ["/background/Trenton.png"],
+//   video: [
+//     "https://www.youtube.com/embed/T9OvwS3gpfQ",
+//     "https://www.youtube.com/embed/avGANhR3Tlw",
+//   ],
+// },
+// self_firming_anticorrosion_wrap: {
+//   title: "self-firming anticorrosion wrap",
+//   description:
+//     "Wax-Tape® #2 wrap is a nonwoven, nonstitch bonded synthetic fabric, saturated with a blend of microcrystalline wax, solvents and corrosion inhibitors (no clay fillers), forming a tape wrapper that firms up and is suitable for painting.",
+//   advantages: [
+//     "Ideal where only minimal surface preparation is possible",
+//     "Conforms to irregular shapes",
+//     "No drying or curing time before backfilling",
+//     "Can be applied over wet surfaces",
+//     "Nontoxic, nonflammable, noncarcinogenic, no VOCs",
+//   ],
+//   uses: [
+//     "For application on belowground metal surfaces, pipe or fittings to prevent corrosion.",
+//   ],
+//   img_type: "fit-in",
+//   logo: ["/background/Trenton.png"],
+//   video: [
+//     "https://www.youtube.com/embed/T9OvwS3gpfQ",
+//     "https://www.youtube.com/embed/avGANhR3Tlw",
+//   ],
+// },

@@ -43,8 +43,8 @@ export const AdminRoutes: routesType = [
     ],
   },
   {
-    path: "/product/Neu_Scan",
-    key: "/product/Neu_Scan",
+    path: "/product/STIC_60",
+    key: "/product/STIC_60",
     name: "Smart Thermal Indicative Coating",
     icon: "",
     children: [
@@ -98,49 +98,209 @@ export const AdminRoutes: routesType = [
       },
     ],
   },
-  // {
-  //   path: "/product/Trenton_Waxtape_Systems",
-  //   key: "/product/Trenton_Waxtape_Systems",
-  //   name: "Trenton Waxtape Systems",
-  //   icon: "",
-  //   children: [
-  //     {
-  //       path: "/product/Non_firming_anticorrosion_wrap",
-  //       key: "/product/Non_firming_anticorrosion_wrap",
-  //       name: "Non-firming anticorrosion wrap",
-  //     },
-  //     {
-  //       path: "/product/self_firming_anticorrosion_wrap",
-  //       key: "/product/self_firming_anticorrosion_wrap",
-  //       name: "Self-firming anticorrosion wrap",
-  //     },
-  //     {
-  //       path: "/product/Trenton_Waxtape_HT_3000_High_Temp_anticorrosion_wrap",
-  //       key: "/product/Trenton_Waxtape_HT_3000_High_Temp_anticorrosion_wrap",
-  //       name: "Trenton Waxtape HT 3000 High-Temp anticorrosion wrap",
-  //     },
-  //     {
-  //       path: "/product/Trenton_Temcoat_3000_primer",
-  //       key: "/product/Trenton_Temcoat_3000_primer",
-  //       name: "Trenton Temcoat 3000 primer",
-  //     },
-  //     {
-  //       path: "/product/Trenton_Patch_Pad_Exothermic_weld_protector",
-  //       key: "/product/Trenton_Patch_Pad_Exothermic_weld_protector",
-  //       name: "Trenton Patch-Pad Exothermic weld protector",
-  //     },
-  //     {
-  //       path: "/product/Trenton_Fill_Coat_1_Hot_Applied_Wax_Casing_Filler",
-  //       key: "/product/Trenton_Fill_Coat_1_Hot_Applied_Wax_Casing_Filler",
-  //       name: "Trenton Fill-Coat #1 Hot Applied Wax Casing Filler",
-  //     },
-  //     {
-  //       path: "/product/Trenton_Fill_Coat_2_Hot_Applied_Wax_Casing_Filler",
-  //       key: "/product/Trenton_Fill_Coat_2_Hot_Applied_Wax_Casing_Filler",
-  //       name: "Trenton Fill-Coat #2 Hot Applied Wax Casing Filler",
-  //     },
-  //   ],
-  // },
+  {
+    path: "/product/WaxTape_1_Non_firming_Wrap",
+    key: "/product/WaxTape_1_Non_firming_Wrap",
+    name: "Trenton Waxtape Systems",
+    icon: "",
+    children: [
+      {
+        path: "/product/WaxTape_1_Non_firming_Wrap",
+        key: "/product/WaxTape_1_Non_firming_Wrap",
+        name: "Wax-Tape #1 Non-firming wrap",
+      },
+      {
+        path: "/product/WaxTape_2_Self_Firming_Wrap",
+        key: "/product/WaxTape_2_Self_Firming_Wrap",
+        name: "Wax-Tape #2 Non-firming wrap",
+      },
+      {
+        path: "/product/Waxtape_HT_3000",
+        key: "/product/Waxtape_HT_3000",
+        name: "Wax-Tape HT 3000",
+      },
+      {
+        path: "/product/Riser_Kits",
+        key: "/product/Riser_Kits",
+        name: "Riser Kits",
+      },
+      
+      // {
+      //   path: "/product/Non_firming_anticorrosion_wrap",
+      //   key: "/product/Non_firming_anticorrosion_wrap",
+      //   name: "Non-firming anticorrosion wrap",
+      // },
+      // {
+      //   path: "/product/self_firming_anticorrosion_wrap",
+      //   key: "/product/self_firming_anticorrosion_wrap",
+      //   name: "Self-firming anticorrosion wrap",
+      // },
+      // {
+      //   path: "/product/Trenton_Temcoat_3000_primer",
+      //   key: "/product/Trenton_Temcoat_3000_primer",
+      //   name: "Trenton Temcoat 3000 primer",
+      // },
+      // {
+      //   path: "/product/Trenton_Patch_Pad_Exothermic_weld_protector",
+      //   key: "/product/Trenton_Patch_Pad_Exothermic_weld_protector",
+      //   name: "Trenton Patch-Pad Exothermic weld protector",
+      // },
+      // {
+      //   path: "/product/Trenton_Fill_Coat_1_Hot_Applied_Wax_Casing_Filler",
+      //   key: "/product/Trenton_Fill_Coat_1_Hot_Applied_Wax_Casing_Filler",
+      //   name: "Trenton Fill-Coat #1 Hot Applied Wax Casing Filler",
+      // },
+      // {
+      //   path: "/product/Trenton_Fill_Coat_2_Hot_Applied_Wax_Casing_Filler",
+      //   key: "/product/Trenton_Fill_Coat_2_Hot_Applied_Wax_Casing_Filler",
+      //   name: "Trenton Fill-Coat #2 Hot Applied Wax Casing Filler",
+      // },
+    ],
+  },
+  {
+    path: "/product/WaxTape_Primer_Brown",
+    key: "/product/WaxTape_Primer_Brown",
+    name: "Trenton Prime & Others",
+    icon: "",
+    children: [
+      {
+        path: "/product/WaxTape_Primer_Brown",
+        key: "/product/WaxTape_Primer_Brown",
+        name: "WaxTape Primer Brown",
+      },
+      {
+        path: "/product/WaxTape_Primer_White",
+        key: "/product/WaxTape_Primer_White",
+        name: "WaxTape Primer White",
+      },
+      {
+        path: "/product/Trenton_Temcoat_3000_primer",
+        key: "/product/Trenton_Temcoat_3000_primer",
+        name: "Temcoat™ 3000 Primer",
+      },
+      {
+        path: "/product/Fill_Pro_Profiling_Mastic",
+        key: "/product/Fill_Pro_Profiling_Mastic",
+        name: "Fill-Pro™ PM-GP Profiling Mastic",
+      },
+      {
+        path: "/product/Fill_Putty_Profiling_Mastic",
+        key: "/product/Fill_Putty_Profiling_Mastic",
+        name: "Fill-Putty™ Profiling Mastic",
+      },
+      {
+        path: "/product/Patch_Pad_Exothermic_Weld_Protector",
+        key: "/product/Patch_Pad_Exothermic_Weld_Protector",
+        name: "Patch-Pad® ",
+      },
+    ],
+  },
+  {
+    path: "/product/Innercoat_for_Pipeline_Reconditioning",
+    key: "/product/Innercoat_for_Pipeline_Reconditioning",
+    name: "Trenton Innercoat",
+    icon: "",
+    children: [
+      {
+        path: "/product/Innercoat_for_Pipeline_Reconditioning",
+        key: "/product/Innercoat_for_Pipeline_Reconditioning",
+        name:"Pipeline Reconditioning",
+      },
+      {
+        path: "/product/Innercoat_for_Flange_Fill",
+        key: "/product/Innercoat_for_Flange_Fill",
+        name: "Flange Fill",
+      },
+     
+    ],
+  },
+  {
+    path: "/product/MCO_Outerwrap",
+    key: "/product/MCO_Outerwrap",
+    name: "Trenton Outerwrap",
+    icon: "",
+    children: [
+      {
+        path: "/product/MCO_Outerwrap",
+        key: "/product/MCO_Outerwrap",
+        name:"MCO® Outerwrap",
+      },
+      {
+        path: "/product/MCO_110_Outerwrap",
+        key: "/product/MCO_110_Outerwrap",
+        name: "MCO® 110 Outerwrap",
+      },
+      {
+        path: "/product/PVC_Outerwrap",
+        key: "/product/PVC_Outerwrap",
+        name: "PVC Outerwrap",
+      },
+     
+      {
+        path: "/product/Guard-Wrap™ Outerwrap",
+        key: "/product/Guard-Wrap™ Outerwrap",
+        name: "Guard-Wrap™ Outerwrap",
+      },
+     
+      {
+        path: "/product/Poly_Ply_Outerwrap",
+        key: "/product/Poly_Ply_Outerwrap",
+        name: "Poly-Ply™ Outerwrap",
+      },
+     
+      {
+        path: "/product/Glas_Wrap_Outerwrap",
+        key: "/product/Glas_Wrap_Outerwrap",
+        name: "Glas-Wrap™ Outerwrap",
+      },
+    ],
+    
+  },
+
+
+  {
+    path: "/product/Trenton_Fill_Coat_1_Hot_Applied_Wax_Casing_Filler",
+    key: "/product/Trenton_Fill_Coat_1_Hot_Applied_Wax_Casing_Filler",
+    name: "Trenton Casing Filling",
+    icon: "",
+    children: [
+      {
+        path: "/product/Trenton_Fill_Coat_1_Hot_Applied_Wax_Casing_Filler",
+        key: "/product/Trenton_Fill_Coat_1_Hot_Applied_Wax_Casing_Filler",
+        name:"Hot Applied Wax Casing Filler #1",
+      },
+      {
+        path: "/product/Trenton_Fill_Coat_2_Cold_Applied_Wax_Casing_Filler",
+        key: "/product/Trenton_Fill_Coat_2_Cold_Applied_Wax_Casing_Filler",
+        name: "Cold-applied Wax Casing Filler #2 ",
+      },
+      {
+        path: "/product/Trenton_Fill_Coat_6_Cold_Applied_Wax_Casing_Filler",
+        key: "/product/Trenton_Fill_Coat_6_Cold_Applied_Wax_Casing_Filler",
+        name: "Cold-Applied Wax Casing Filler #6 ",
+      },
+     
+      {
+        path: "/product/Pre_Con_Casing_Corrosion_Inhibitor",
+        key: "/product/Pre_Con_Casing_Corrosion_Inhibitor",
+        name: "Pre-Con® Casing Corrosion Inhibitor",
+      },
+     
+      {
+        path: "/product/Short_Stop",
+        key: "/product/Short_Stop",
+        name: "Short-Stop™",
+      },
+     
+      {
+        path: "/product/Seal_Wrap",
+        key: "/product/Seal_Wrap",
+        name: "Seal-Wrap™ End Seal",
+      },
+    ],
+    
+  },
+  //
   {
     path: "/product/Coating_Systems",
     key: "/product/Coating_Systems",
