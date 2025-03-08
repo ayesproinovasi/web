@@ -586,12 +586,12 @@ export const products = {
     ],
     images: [
       "/mitigation/Product_Coating_Quality_Measurement/image.png",
-      "/mitigation/Product_Coating_Quality_Measurement/image_6.jpg",
-      "/mitigation/Product_Coating_Quality_Measurement/image_3.jpg",
-      "/mitigation/Product_Coating_Quality_Measurement/image_2.png",
-      "/mitigation/Product_Coating_Quality_Measurement/image_4.jpg",
-      "/mitigation/Product_Coating_Quality_Measurement/image_5.jpg",
-      "/mitigation/Product_Coating_Quality_Measurement/image_7.jpg",
+      "/mitigation/Product_Coating_Quality_Measurement/image6.jpg",
+      "/mitigation/Product_Coating_Quality_Measurement/image3.jpg",
+      "/mitigation/Product_Coating_Quality_Measurement/image2.png",
+      "/mitigation/Product_Coating_Quality_Measurement/image4.jpg",
+      "/mitigation/Product_Coating_Quality_Measurement/image5.jpg",
+      "/mitigation/Product_Coating_Quality_Measurement/image7.jpg",
     ],
   },
   Neu_Scan: {
