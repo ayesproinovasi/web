@@ -587,11 +587,12 @@ export const products = {
     images: [
       "/mitigation/Product_Coating_Quality_Measurement/image.png",
       "/mitigation/Product_Coating_Quality_Measurement/image6.jpg",
-      "/mitigation/Product_Coating_Quality_Measurement/image3.jpg",
-      "/mitigation/Product_Coating_Quality_Measurement/image2.png",
-      "/mitigation/Product_Coating_Quality_Measurement/image4.jpg",
-      "/mitigation/Product_Coating_Quality_Measurement/image5.jpg",
       "/mitigation/Product_Coating_Quality_Measurement/image7.jpg",
+      
+      "/mitigation/Product_Coating_Quality_Measurement/Image3.jpg",
+      "/mitigation/Product_Coating_Quality_Measurement/Image2.png",
+      "/mitigation/Product_Coating_Quality_Measurement/Image4.jpg",
+      "/mitigation/Product_Coating_Quality_Measurement/Image5.jpg",
     ],
   },
   Neu_Scan: {
@@ -607,10 +608,10 @@ export const products = {
       "By offering real-time data on moisture distribution within insulation layers, Neu Scan NDT helps maintenance teams make informed decisions regarding repair or replacement strategies. The technique enhances asset integrity management by minimizing the risk of undetected CUI, ultimately extending the service life of insulated equipment and ensuring operational safety. ",
     ],
     images: [
-      "/mitigation/Product_NeuScan/image_1.jpg",
-      "/mitigation/Product_NeuScan/image_2.jpg",
-      "/mitigation/Product_NeuScan/image_3.png",
-      "/mitigation/Product_NeuScan/image_4.jpg",
+      "/mitigation/Product_NeuScan/Image_1.jpg",
+      "/mitigation/Product_NeuScan/Image_2.jpg",
+      "/mitigation/Product_NeuScan/Image_3.png",
+      "/mitigation/Product_NeuScan/Image_4.jpg",
     ],
   },
   WI_Discovery_Device: {
@@ -644,12 +645,12 @@ export const products = {
     //   "Weight : Approximate 85gm",
     // ],
     images: [
-      "/mitigation/Product_WI_Discovery_Devics/image_1.jpg",
+      "/mitigation/Product_WI_Discovery_Devics/Image_1.jpg",
       "/mitigation/Product_WI_Discovery_Devics/image_2.jpg",
       "/mitigation/Product_WI_Discovery_Devics/image_3.jpg",
       "/mitigation/Product_WI_Discovery_Devics/image_4.jpg",
-      "/mitigation/Product_WI_Discovery_Devics/image_5.jpg",
-      "/mitigation/Product_WI_Discovery_Devics/image_6.jpg",
+      "/mitigation/Product_WI_Discovery_Devics/Image_5.jpg",
+      "/mitigation/Product_WI_Discovery_Devics/Image_6.jpg",
     ],
   },
   STIC_60: {
@@ -669,8 +670,8 @@ export const products = {
       "No blind spot, does not rely on external forces. ",
     ],
     images: [
-      "/mitigation/Product_STIC_60/image_1.png",
-      "/mitigation/Product_STIC_60/image_2.png",
+      "/mitigation/Product_STIC_60/Image_1.png",
+      "/mitigation/Product_STIC_60/Image_2.png",
     ],
   },
 
@@ -718,9 +719,9 @@ export const products = {
       "Can be painted after firming up",
     ],
     images: [
-      "/Product_Trenton/waxtape/Waxtape2/Img1.jpg",
-      "/Product_Trenton/waxtape/Waxtape2/Img2.jpg",
-      "/Product_Trenton/waxtape/Waxtape2/Img3.jpg",
+      "/Product_Trenton/waxtape/Waxtape2/img1.jpg",
+      "/Product_Trenton/waxtape/Waxtape2/img2.jpg",
+      "/Product_Trenton/waxtape/Waxtape2/img3.jpg",
     ],
   },
 
@@ -734,9 +735,11 @@ export const products = {
     ],
     img_type: "fit-in",
     logo: ["/background/Trenton.png"],
-    video: [
-      "https://www.youtube.com/embed/T9OvwS3gpfQ",
-      "https://www.youtube.com/embed/avGANhR3Tlw",
+    images: [
+      "/Product_Trenton/waxtape/WaxtapeHT/Img1.jpg",
+      "/Product_Trenton/waxtape/WaxtapeHT/Img2.jpg",
+      "/Product_Trenton/waxtape/WaxtapeHT/img3.jpg",
+      "/Product_Trenton/waxtape/WaxtapeHT/img4.jpg",
     ],
   },
   Riser_Kits: {
