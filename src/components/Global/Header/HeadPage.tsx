@@ -16,7 +16,7 @@ function HeadPage({
   return (
     <Head>
       {/* Dynamic title */}
-      <title>{`${title} | ${process.env.NEXT_PUBLIC_APPNAME ?? "APP"}`}</title>
+      <title>{`${title} | ${process.env.NEXT_PUBLIC_APPNAME ?? "PT.API"}`}</title>
 
       {/* Default CSS */}
       <link
